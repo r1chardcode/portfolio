@@ -1,0 +1,34 @@
+/*REGLAS CSS
+selectores - header
+
+declaraciones - {
+    background: pink;
+}
+
+propiedades - background
+
+valores - pink
+*/
+
+/* selector de etiqueta */
+/* header */
+
+/* selector descendente */
+/* body header div nav ol li a  */
+
+/* selector de clase . */
+/* .link */
+
+/* selector de id # */
+/* #portafolio */
+
+
+header{
+    background: pink;
+}
+
+
+
+
+
+
