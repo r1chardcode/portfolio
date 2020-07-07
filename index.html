@@ -9,12 +9,12 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div>
-            <figure>
+            <figure class="logo">
                 <img src="images/logo.png" alt="Logo de http://leonidasesteban.com" />
             </figure>
-            <nav>
+            <nav class="menu">
                 <ol>
                     <li>
                         <a href="#portafolio">Portafolio</a>
@@ -29,43 +29,46 @@
             </nav>
         </div>
     </header>
-    <section>
+    <section class="hero">
         <h1>
             Hola! Soy <strong>Richard Acosta</strong> <br> <strong>Desarrollador Web</strong> <br> Apasionado por la
             tecnologia.
         </h1>
         <img src="images/hero.jpg" width="500" height="300" alt="Imagen principal del sitio." />
     </section>
-    <section id="portafolio">
+    <section id="portafolio" class="portfolio">
         <h2>Portafolio - Proyectos Destacados</h2>
-        <article>
-            <h3>Platzi Video</h3>
-            <h6>React Native / React</h6>
-            <p><small><strong>Fecha:</strong> 13/05/1992</small></p>
-            <p><small><strong>Puedes verlo en:</strong> www.platzi.com</small></p>
-            <p>Proyecto desarrollado en Platzi dentro del Curso de Desarrollo Web </p>
-            <img width="500" src="images/platzi-video-react-native.png" alt="Platzi video React Native">
-        </article>
-    </section>
-    <section id="experiencia">
-        <h2>Mas sobre mi experiencia</h2>
-        <article>
-            <figure>
-                <img src="images/platzi-conf.jpg" width="500" />
+        <article class="project">
+            <h3 class="project-title">Platzi Video</h3>
+            <h6 class="project-course">React Native / React</h6>
+            <p class="project-date"><small><strong>Fecha:</strong> 13/05/1992</small></p>
+            <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com</small></p>
+            <p class="project-description">Proyecto desarrollado en Platzi dentro del Curso de Desarrollo Web </p>
+            <figure class="project-imageContainer">
+                <img class="project-image" width="500" src="images/platzi-video-react-native.png"
+                    alt="Platzi video React Native">
             </figure>
-            <h3>PlatziConf Colombia 2020</h3>
-            <p>Descripcion de la PlatziConf de Colombia</p>
-            <a href="https://youtube.com" target="_blank">Ver video</a>
         </article>
     </section>
-    <section id="contacto">
-        <form action="/suscription/">
+    <section id="eventos">
+        <h2>Mas sobre mi experiencia</h2>
+        <article class="event">
+            <figure class="event-imageContainer">
+                <img class="event-image" src="images/platzi-conf.jpg" width="500" />
+            </figure>
+            <h3 class="event-title">PlatziConf Colombia 2020</h3>
+            <p class="event-description">Descripcion de la PlatziConf de Colombia</p>
+            <a class="event-url" href="https://youtube.com" target="_blank">Ver video</a>
+        </article>
+    </section>
+    <section id="contacto" class="contact">
+        <form action="/suscription/" class="form-email">
             <h3>¿Creamos algo juntos?</h3>
             <input type="text" placeholder="Déjame tu email" id="email">
             <button>Enviar</button>
         </form>
     </section>
-    <footer>
+    <footer class="footer">
         footer
     </footer>
 </body>
