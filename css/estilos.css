@@ -47,7 +47,8 @@ h1 {
     font-size: 40px; /*Tamaño*/
     line-height: 1.5; /*Espaciado*/
     letter-spacing: -.3px; /*Separacion*/
-    color: #fff;
+    color: white;
+    margin: 100px 150px 70px 30px;
     /* text-transform: capitalize; /*Transformar en tipos, mayus,minus,prim_mayusc*/
     /* text-decoration: dashed; Decoracion, subrayado, etc */
 }
@@ -68,6 +69,12 @@ h1 strong {
 .project{
     border: 1px solid gray;
     border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+/*    margin-right: 0%;
+    margin-left: ;
+    margin-top: ;*/
+    padding: 20px;
 }
 
 .project-details {
