@@ -30,6 +30,7 @@ fondo-gris-color: #1b2127; */
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    background: 0;
 }
 
 h1,
@@ -48,13 +49,23 @@ h1 {
     line-height: 1.5; /*Espaciado*/
     letter-spacing: -.3px; /*Separacion*/
     color: white;
-    margin: 100px 150px 70px 30px;
+    margin: 0;
+    /* margin: 100px 150px 70px 30px; */
     /* text-transform: capitalize; /*Transformar en tipos, mayus,minus,prim_mayusc*/
     /* text-decoration: dashed; Decoracion, subrayado, etc */
 }
 
 h1 strong {
     color: #0d62d1;
+}
+
+h2{
+    color: #0d62d1;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
 }
 
 .hero {
@@ -64,17 +75,96 @@ h1 strong {
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    align-items: center;
 }
+
+.portfolio{
+    background: #fafafa;
+    /* background: red; */
+    padding: 20px;
+}
+
+ol,
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu { /* .menu hereda de .header */
+    height: inherit;
+}
+
+.header ol { /* .header ol hereda de .menu */
+    display: flex;
+    height: inherit;
+}
+
+  .header ol li { /* .header ol li hereda de .header ol */
+    height: inherit;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+figure{
+    margin: 0;
+}
+
+.header {
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 .project{
     border: 1px solid gray;
     border-radius: 10px;
-    margin: 10px;
+    /* margin: 10px; */
     margin-bottom: 15px;
 /*    margin-right: 0%;
     margin-left: ;
     margin-top: ;*/
     padding: 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-title{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.project-course,
+.project-date,
+.project-url {
+    margin: 10px 0;
+}
+
+/* .project-date{
+    margin: 10px 0;
+} */
+
+.project-description {
+    font-size: 20px;
+}
+
+.project strong {
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .project-details {
@@ -96,5 +186,38 @@ h1 strong {
 }
 
 
+.flexbox{
+    display: flex;
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+}
 
+.box{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid red;
+    
+    flex-shrink: 0;    /* Cuanto se puede encoger el elemento */
+}
 
+.footer{
+    color: white;
+    background-color: #1b2127;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
+.footer a {
+    color: white;
+}
+
+.event{
+    border: 1px solid red;
+}
