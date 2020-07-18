@@ -12,75 +12,127 @@
 
 <body>
     <header class="header">
-        <figure class="logo">
-            <img src="images/logo.png" height="50px" alt="Logo de http://leonidasesteban.com" />
-        </figure>
-        <nav class="menu">
-            <ol>
-                <li>
-                    <a href="#portafolio">Portafolio</a>
-                </li>
-                <li>
-                    <a href="#eventos">Experiencia</a>
-                </li>
-                <li>
-                    <a href="#contacto">Trabajemos juntos</a>
-                </li>
-            </ol>
-        </nav>
+        <div class="container">
+            <figure class="logo">
+                <img src="images/logo.png" height="50px" alt="Logo de http://leonidasesteban.com" />
+            </figure>
+            <nav class="menu">
+                <ol>
+                    <li>
+                        <a href="#portafolio">Portafolio</a>
+                    </li>
+                    <li>
+                        <a href="#eventos">Experiencia</a>
+                    </li>
+                    <li>
+                        <a href="#contacto">Trabajemos juntos</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
     </header>
     <section class="hero">
-        <h1>
-            Hola! Soy <strong>Richard Acosta</strong> <br> <strong>Desarrollador Web</strong> <br> Apasionado por la
-            tecnologia.
-        </h1>
-        <!-- <img src="images/hero.jpg" width="500" height="300" alt="Imagen principal del sitio." /> -->
+        <div class="container">
+            <h1>
+                Hola! Soy <strong>Richard Acosta</strong> <br> <strong>Desarrollador Web</strong> <br> Apasionado por la
+                tecnologia.
+            </h1>
+            <img class="hero-image" src="images/hero.jpg" width="500" height="300" alt="Imagen principal del sitio." />
+        </div>
     </section>
     <section id="portafolio" class="portfolio">
-        <h2>Portafolio - Proyectos Destacados</h2>
-        <article class="project">
-            <div class="project-details">
-                <h3 class="project-title">Platzi Video</h3>
-                <h6 class="project-course">React Native / React</h6>
-                <p class="project-date"><small><strong>Fecha:</strong> 13/05/1992</small></p>
-                <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com</small></p>
-                <p class="project-description">Proyecto desarrollado en Platzi dentro del Curso de Desarrollo Web, Beca
-                    Empoderatec liderado por la Camara de Comercio de Bogotá y Endeavor Colombia.</p>
-            </div>
-            <figure class="project-imageContainer">
-                <img class="project-image" width="500" src="images/platzi-video-react-native.png"
-                    alt="Platzi video React Native">
-            </figure>
-        </article>
+        <div class="container">
+            <h2>Portafolio - Proyectos Destacados</h2>
+            <article class="project">
+                <div class="project-details">
+                    <h3 class="project-title">Platzi Video</h3>
+                    <h6 class="project-course">React Native / React</h6>
+                    <p class="project-date"><small><strong>Fecha:</strong> 13/05/1992</small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com</small></p>
+                    <p class="project-description">Proyecto desarrollado en Platzi dentro del Curso de Desarrollo Web, Beca
+                        Empoderatec liderado por la Camara de Comercio de Bogotá y Endeavor Colombia.</p>
+                </div>
+                <figure class="project-imageContainer">
+                    <img class="project-image" width="500" src="images/platzi-video-react-native.png"
+                        alt="Platzi video React Native">
+                </figure>
+            </article>
+        </div>
     </section>
-    <section id="eventos">
-        <h2>Mas sobre mi experiencia</h2>
-        <article class="event">
-            <figure class="event-imageContainer">
-                <img class="event-image" src="images/platzi-conf.jpg" width="500" />
-            </figure>
-            <h3 class="event-title">PlatziConf Colombia 2020</h3>
-            <p class="event-description">Descripcion de la PlatziConf de Colombia</p>
-            <a class="event-url" href="https://youtube.com" target="_blank">Ver video</a>
-        </article>
+    <div class="container">
+        <h2 class="event-list-title">Mas sobre mi experiencia</h2>
+    </div>
+    <section id="eventos" class="event-list">
+        <div class="container">
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="images/platzi-conf.jpg" width="500" />
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">PlatziConf Colombia 2020</h3>
+                    <p class="event-description">Descripcion de la PlatziConf de Colombia</p>
+                    <a class="event-url" href="https://youtube.com" target="_blank">Ver video</a>
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="images/platzi-conf.jpg" width="500" />
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">PlatziConf Colombia 2020</h3>
+                    <p class="event-description">Descripcion de la PlatziConf de Colombia</p>
+                    <a class="event-url" href="https://youtube.com" target="_blank">Ver video</a>
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="images/platzi-conf.jpg" width="500" />
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">PlatziConf Colombia 2020</h3>
+                    <p class="event-description">Descripcion de la PlatziConf de Colombia</p>
+                    <a class="event-url" href="https://youtube.com" target="_blank">Ver video</a>
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="images/platzi-conf.jpg" width="500" />
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">PlatziConf Colombia 2020</h3>
+                    <p class="event-description">Descripcion de la PlatziConf de Colombia</p>
+                    <a class="event-url" href="https://youtube.com" target="_blank">Ver video</a>
+                </div>
+            </article>
+        </div>
     </section>
     <section id="contacto" class="contact">
-        <form action="/suscription/" class="form-email">
-            <h3>¿Creamos algo juntos?</h3>
-            <input type="text" placeholder="Déjame tu email" id="email">
-            <button>Enviar</button>
-        </form>
+        <div class="container">
+            <form action="/suscription/" class="form-email">
+                <h3>¿Creamos algo juntos?</h3>
+                <input type="text" placeholder="Déjame tu email" id="email">
+                <button>Enviar</button>
+            </form>
+            <div class="social">
+                <a href="https://twitter.com/r1chardcode" target="_blank" class="social-link twitter"></a>
+                <a href="https://facebook.com/r1chardcode" target="_blank" class="social-link facebook"></a>
+                <a href="https://github.com/r1chardcode" target="_blank" class="social-link github"></a>
+                <a href="https://instagram.com/r1chardcode" target="_blank" class="social-link instagram"></a>
+            </div>
+        </div>
     </section>
     <footer class="footer">
-        <div>
-            <p>
-                Hecho en el Curso de Desarrollo Web Online <img src="images/platzi.png" width="80px" alt="Platzi">
-            </p>
-        </div>
-        <div>
-            <p>
-                Designed by <a href="https://twitter.com/r1chardcode">@r1chardcode</a>
-            </p>
+        <div class="container">
+            <div>
+                <p>
+                    Hecho en el Curso de Desarrollo Web Online <img src="images/platzi.png" width="80px" alt="Platzi">
+                </p>
+            </div>
+            <div>
+                <p>
+                    Designed by <a href="https://twitter.com/r1chardcode">@r1chardcode</a>
+                </p>
+            </div>
         </div>
     </footer>
 </body>
